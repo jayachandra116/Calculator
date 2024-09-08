@@ -1,0 +1,21 @@
+header {
+  margin: 0;
+  padding: 1rem;
+  width: 100vw;
+  /* background-color: #606676; */
+  color: #606676;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li{
+    list-style: none;
+}
