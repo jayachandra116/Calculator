@@ -1,14 +1,25 @@
-.btn {
-    background-color: grey;
-    color: aliceblue;
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
-    font-family: inherit;
-    line-height: 2rem;
-    cursor: pointer;
+:root {
+  --bg-color: #021526;
+  --color-1: #6eacda;
+  --color-2: #03346e;
+  --font-color: #e2e2b6;
+  --font-color-2: #e2dfd0;
 }
 
-.btn:hover{
-    line-height: 2.5rem;
+.btn {
+  background-color: var(--color-2);
+  border-radius: 12px;
+  color: var(--font-color);
+  cursor: pointer;
+  font-size: larger;
+  font-family: inherit;
+  min-height: 4rem;
+  line-height: 2rem;
+  outline: none;
+  min-width: 6rem;
+}
+
+.btn:hover {
+  background-color: #074796;
+  color: var(--font-color-2);
 }

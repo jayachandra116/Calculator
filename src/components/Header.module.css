@@ -1,13 +1,19 @@
+:root {
+  --bg-color: #021526;
+  --font-color: #e2e2b6;
+  --color-1: #6eacda;
+  --color-2: #03346e;
+}
+
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--font-color);
+  height: 4rem;
   margin: 0;
   padding: 1rem;
   width: 100vw;
-  /* background-color: #606676; */
-  color: #606676;
-  height: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 nav {
@@ -16,6 +22,6 @@ nav {
   align-items: center;
 }
 
-nav li{
-    list-style: none;
+nav li {
+  list-style: none;
 }

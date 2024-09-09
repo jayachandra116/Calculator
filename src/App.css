@@ -1,0 +1,30 @@
+:root {
+  --bg-color: #021526;
+  --font-color: #e2e2b6;
+  --color-1: #6eacda;
+  --color-2: #03346e;
+}
+
+.main-app {
+  background-color: var(--color-1);
+  border-radius: 16px;
+  padding: 1rem;
+}
+
+.input-expression {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 3.5rem;
+  padding: 0 2rem;
+  color: white;
+  font-size: larger;
+}
+
+.user-output {
+  font-size: large;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 3rem;
+  color: white;
+}

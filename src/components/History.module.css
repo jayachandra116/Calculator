@@ -1,0 +1,43 @@
+:root {
+  --bg-color: #021526;
+  --font-color: #e2e2b6;
+  --color-1: #6eacda;
+  --color-2: #03346e;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  min-width: 250px;
+  overflow-y: scroll;
+  padding: 1rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.history::-webkit-scrollbar {
+  display: none;
+}
+
+.history ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.history li {
+  list-style: none;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--color-1);
+  color: var(--font-color);
+  border-radius: 16px;
+  margin: 0.5rem;
+  font-size: small;
+  width: 100%;
+}
+
+.clear-btn {
+  background-color: var(--font-color);
+  color: var(--bg-color);
+}
