@@ -18,7 +18,14 @@ function App() {
   }
 
   function operatorClickHandler(op) {
-    setExpression((prevExpression) => prevExpression + op);
+    let lastChar = expression.charAt(expression.length - 1);
+    console.log(`Last character of the expression: '${lastChar}'`);
+
+    if (operators.includes(lastChar)) {
+      setExpression((prevExpression) => prevExpression.slice(0, -1) + op);
+    } else {
+      setExpression((prevExpression) => prevExpression + op);
+    }
   }
 
   function helperClickHandler(action) {
